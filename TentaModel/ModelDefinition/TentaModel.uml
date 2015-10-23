@@ -1,0 +1,2287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="d216a83a-91d0-4678-ab57-6cb69839807a"
+  name="TentaModel" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <appliedStereotypesInternal>
+    <stereotypeInstance
+      Id="d4e02147-2c6e-4302-9115-72d0329a75e6"
+      name="namespace"
+      profile="CSharpProfile">
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="b903142a-bdd5-4369-92f7-9cdb4c4c9890">
+          <propertyInstance
+            Id="b7883073-37db-4f97-a2d4-e959e7c22565"
+            name="BaseName" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="95f140b4-5033-46af-99a5-2fd3f9738e82">
+          <propertyInstance
+            Id="ecdde0f0-e81f-4151-b354-86fadbd777fb"
+            name="ClrAttributes" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="100f6839-f3a0-4e98-8751-cb25915f6713">
+          <propertyInstance
+            Id="aff14491-09df-45d9-9e29-fd98206652e7"
+            name="Usings" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance
+      Id="18e5d3f4-8be0-4197-88c0-79a4d7050e8a"
+      name="TextTemplateBindings"
+      profile="TextTemplateBindings">
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="4381c29c-7210-4613-aab7-ec4cb7ce5c13">
+          <propertyInstance
+            Id="7ed866bb-3906-4377-a6ac-bdf9f22760ec"
+            name="Alias"
+            value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="304308fc-fe0b-42f1-a8d7-a19d872e29ac">
+          <propertyInstance
+            Id="90ff2743-da2f-4315-965d-d5e0e7180a28"
+            name="TemplateFilePath"
+            value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="6f216812-dbe3-44ea-82c9-fb91a5550505">
+          <propertyInstance
+            Id="ce029300-b8cd-46a1-97b4-0756c9fa4165"
+            name="ProjectPath"
+            value="ClassTemplate=..\TentaModelLib\TentaModelLib.csproj|EnumTemplate=..\TentaModelLib\TentaModelLib.csproj|InterfaceTemplate=..\TentaModelLib\TentaModelLib.csproj|StructTemplate=..\TentaModelLib\TentaModelLib.csproj" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="a01d5c35-e4f5-48e9-b244-48db6df5192d">
+          <propertyInstance
+            Id="920f1b03-9170-4ce8-97a2-c3e36c0d53ee"
+            name="TargetDirectory"
+            value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="b16c6771-bcaf-4d1c-9126-966d118a48f9">
+          <propertyInstance
+            Id="d968a4b1-5883-4ed3-91d8-21d30c82d839"
+            name="TargetName"
+            value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="d6357620-081c-49d7-bc9a-c06e6e53730c">
+          <propertyInstance
+            Id="87370b35-20ea-4f52-99f7-8e412cee1ce1"
+            name="Overwrite"
+            value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances
+          Id="ed252839-0bbf-4cf1-87eb-a0edce339a85">
+          <propertyInstance
+            Id="d11d2f1f-fddf-46a5-86f3-a31d15c1bf37"
+            name="Parameters" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="a5f928cc-d2c0-4c49-b91b-2f58956621aa">
+      <profileInstance
+        Id="e65175bb-bc9c-4acd-ab90-ff7a730ca710"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="ac2bcaa8-c035-4034-82e3-e06c3040b5ba">
+      <profileInstance
+        Id="416d2bb4-af12-4770-bab5-647b7bab01ba"
+        name="TextTemplateBindings" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <subsystem
+        Id="dfbaba55-469b-4592-8e75-5d4bde05cd5c"
+        name="MovieSystem"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="b6da6895-0c55-4ce1-ae2a-2250d991d2e0"
+        name="Consumer"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="49615a83-6571-4115-8912-45cee1868e74"
+            isDerived="false"
+            sourceEndRoleName="MovieWatcher"
+            targetEndRoleName="Watch Movie"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="28a24770-a865-4ab1-93c3-2aa988cb7ece"
+              LastKnownName="View Movie"
+              LastKnownLocation="TentaModel.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2940e6ee-dbd3-4493-b334-a013a07a1cb5"
+                  name="MovieWatcher"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2d6b9a8d-65da-4168-92b2-2a74b12b8528"
+                  name="Watch Movie"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="e4c62158-8a92-4e89-8c6b-86641d6bfc88"
+        name="Producer"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="62318aab-5bb4-40b2-8b58-5e33a5196717"
+            isDerived="false"
+            sourceEndRoleName="Producer"
+            targetEndRoleName="Upload movie"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="cf92abdf-c956-4195-b01f-36d8d7279fb7"
+              LastKnownName="Upload movie"
+              LastKnownLocation="TentaModel.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e21f6ea6-97f1-4835-8ec6-6fb87dd08c2d"
+                  name="Producer"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7cbe60bd-b446-489c-9d1b-caa8ed9c3b99"
+                  name="Upload movie"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="28a24770-a865-4ab1-93c3-2aa988cb7ece"
+        name="View Movie"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="dfbaba55-469b-4592-8e75-5d4bde05cd5c"
+            LastKnownName="MovieSystem"
+            LastKnownLocation="TentaModel.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="cf92abdf-c956-4195-b01f-36d8d7279fb7"
+        name="Upload movie"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="dfbaba55-469b-4592-8e75-5d4bde05cd5c"
+            LastKnownName="MovieSystem"
+            LastKnownLocation="TentaModel.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="74f6c3b3-4a2c-47d9-a4af-1d7c1aeaa3db"
+        name="Movie"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="b8dc2b52-1f4c-4c40-922e-4c6aada5b75b"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a5f4618a-4f52-4c2e-8f95-7d10a8829199">
+                <propertyInstance
+                  Id="6dd32396-1983-4f58-8395-5e2abe873adb"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="58003390-007c-4aa6-9a9c-11f63371ec99">
+                <propertyInstance
+                  Id="15498ce5-c183-4370-b706-08eecffffc54"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1bda4d5a-0580-4569-8856-e2d2d9a4b1a1">
+                <propertyInstance
+                  Id="f9973d6a-cdf7-4434-a09a-bd8918510b26"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c4237b8c-adf2-473c-a595-e6e0927374d6">
+                <propertyInstance
+                  Id="6fe83e56-8f75-425d-8bd1-dd710430b49e"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c5f11764-a5d2-4239-a0b4-c477ea9f88da">
+                <propertyInstance
+                  Id="3cd77e2b-5060-4ca8-bb36-144c99942166"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="4f7a1b95-8ecc-4795-84ca-01243c4b8667"
+            isDerived="false"
+            sourceEndRoleName="Movie"
+            targetEndRoleName="Actor"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="4743d9e0-84e9-4874-bafa-e0b9bd16f699"
+              LastKnownName="Actor"
+              LastKnownLocation="TentaModel.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3222cc84-86f9-4218-9ecd-9b56cc9bd4c9"
+                  name="Movie"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b0d79254-f824-42b3-bc11-48a62c40f56a"
+                  name="Actor"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="c8c0e136-be49-4f86-be81-22940d28a324"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="db612c38-ef75-4b90-82e3-0293c9a4f66b"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="4954a0bd-711a-4a9d-aaf5-e521bb04e635"
+            name="Name"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0dd738b6-91eb-44d9-b265-2d79d1be654d"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b530f1bb-4eaa-4322-8e37-57eee2af2276">
+                    <propertyInstance
+                      Id="ba31d008-b9d9-403a-bc64-9ed04c4286e0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae706797-2e4c-452f-a19a-5c007ef2857d">
+                    <propertyInstance
+                      Id="c01150aa-9738-4662-980c-629340c5250a"
+                      name="Get"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="52c26d35-2a0d-4311-8d4b-3ed6c61fc667">
+                    <propertyInstance
+                      Id="a359f45e-09a0-4ed1-b552-2582c8526dd8"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8edfcda3-da34-45b9-9268-9f5bfdaf439c">
+                    <propertyInstance
+                      Id="c4184b23-0b4f-40a8-bd4f-ef7eadaf6ee7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e2d3fb69-7f56-4552-95ef-3ccf849e25a7">
+                    <propertyInstance
+                      Id="fbfa29df-1c36-4350-b5c8-b913411117ff"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="94212f98-1751-402a-b54c-cef86a80c86e">
+                    <propertyInstance
+                      Id="a1108618-ac8a-48e6-9675-0d3438541ccf"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c86e275-c846-4407-a0a4-1026dee459dc">
+                    <propertyInstance
+                      Id="b218a381-a364-4436-a375-2f5be7bb1d16"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="ae8e92ea-5f4f-4043-bc56-84caa7872fcd"
+                LastKnownName="string"
+                LastKnownLocation="TentaModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="8e6e53cf-5c82-4e81-9962-0359014b3565"
+            name="Releasedate"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c3ae1c36-ee3c-43e8-846b-af5637624ab4"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4aedf75e-644f-4796-91c4-71d94dc80749">
+                    <propertyInstance
+                      Id="fe71690c-2867-4533-900e-52d2f1ea8e3f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8fac6dab-82f1-4ac1-a58f-237e73279eca">
+                    <propertyInstance
+                      Id="26efa5d3-9f66-4b7f-a78d-fc74ad150312"
+                      name="Get"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b029429-74da-474c-9554-c31b28e8c97e">
+                    <propertyInstance
+                      Id="fe41098f-6947-4f44-8e77-892af4c2650a"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="694f744e-07ab-493b-8db7-a67c4e0994e7">
+                    <propertyInstance
+                      Id="843eeb16-c5c5-4c1a-8ed9-bc06e51333bb"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aae118e9-f1f2-43ed-830c-c8f90a452507">
+                    <propertyInstance
+                      Id="4ba07bef-8a61-4da1-864f-57ace5364e62"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="38ce3f57-ec48-4e99-b9f1-da90eeece3d1">
+                    <propertyInstance
+                      Id="1a7bc81c-e7af-48c5-b8ec-044a5ac18903"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8d63e82d-228a-4e84-85c2-f3f049a545c2">
+                    <propertyInstance
+                      Id="01ae63a0-f219-4727-be6a-ac1953ad78b1"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="99eeda3c-6959-4637-8e4c-cb5c14ca8e5a"
+                LastKnownName="DateTime"
+                LastKnownLocation="TentaModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e1d93331-5466-4176-9e54-449be97a51e8"
+            name="Actors"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="72c41257-a5b0-437a-81dd-2eb7eba2f603"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="43d3604d-6663-4357-9638-51584513f66a">
+                    <propertyInstance
+                      Id="6e055967-ebb6-4206-ac60-0cc11c43a01f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ea67e2d-c2c3-4de6-96fa-f00d4019c508">
+                    <propertyInstance
+                      Id="5a72fe91-6f5d-46dc-ae32-4a11b09aa998"
+                      name="Get"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="590ad2c9-b2a8-467d-9bfb-de98936e547d">
+                    <propertyInstance
+                      Id="269f89ce-dbe1-498c-800a-472171680e30"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b74e48f-cd2c-459b-9f82-c4fab102543a">
+                    <propertyInstance
+                      Id="78183ae0-775c-410f-8c9d-c0a349aa006b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="74f4c420-30c6-4b3e-be3e-75360253a040">
+                    <propertyInstance
+                      Id="a4f512a4-1d15-4be2-85f3-f8d2d627cd5a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e02df950-4d75-4307-a951-b842cfc40fee">
+                    <propertyInstance
+                      Id="1b120aea-0035-48a9-b0c9-0f5b966cb9cf"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="85cff8c7-97dd-4457-891b-ceb839aded56">
+                    <propertyInstance
+                      Id="9478bbeb-e456-4be9-ab2e-9b39bce428bf"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="ae8e92ea-5f4f-4043-bc56-84caa7872fcd"
+                LastKnownName="string"
+                LastKnownLocation="TentaModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="4c32a765-06b0-4af8-8567-7447c7c5b5e6"
+            name="LenghtInMinutes"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c576cf36-8d93-40e8-bc80-70597f04d198"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ae4ff167-482a-4258-a71a-959e6cb1a20b">
+                    <propertyInstance
+                      Id="33dd7107-913a-4245-9479-30faac4b1800"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe48194d-23d9-4ecb-aef8-86a0306213ea">
+                    <propertyInstance
+                      Id="f7c59e1d-6017-4b94-9c1c-89e3989453d2"
+                      name="Get"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="14c069e8-0896-48f4-9d9d-5e4e8123faec">
+                    <propertyInstance
+                      Id="bf5f3751-175d-4db6-9241-6f28480c86ba"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="260cf2d1-a27e-4c2e-9900-248b323cb592">
+                    <propertyInstance
+                      Id="90ee1cc0-c41b-49af-b09b-bef46dd913de"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="127b1679-5a75-486c-8a93-b91e328d1a9a">
+                    <propertyInstance
+                      Id="ebd805a1-201f-4f1f-af28-ca51b25caf25"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="49fa763b-4ec9-4258-8d9e-0ff36cdcc72c">
+                    <propertyInstance
+                      Id="be7470e8-4b58-4d4a-801c-cebb9b8bd681"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc8dbd24-2e49-44dd-9332-8dcd6ede24f9">
+                    <propertyInstance
+                      Id="4ac3af69-fed5-452b-a568-fb2e9b43c851"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="14258f78-fdd8-4a97-a7e5-27e46cdf8d4f"
+                LastKnownName="int"
+                LastKnownLocation="TentaModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="2d178ca8-b5eb-4f63-80f2-ad773371a734"
+            name="Website"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="eb3e4280-5983-4ab1-9905-b81268b0d30d"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cdded330-f60a-4218-bc34-aeb22e6f2453">
+                    <propertyInstance
+                      Id="d8c190ae-7d5c-4e0d-bdb8-ad5e8a1bc5c7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="22da9d11-9c59-4f98-a08e-3c9283478c38">
+                    <propertyInstance
+                      Id="93e2c024-5aff-4618-9798-747880f0cbb2"
+                      name="Get"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3bc7580-a905-488f-9cfc-3c4dc6987f48">
+                    <propertyInstance
+                      Id="e1846d1e-dcbd-4610-823a-26e610c65c15"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="67d89896-aa10-4028-a0c7-d137656d7038">
+                    <propertyInstance
+                      Id="32701928-4af6-4f9c-a6ae-dd528a6bedbe"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c1904844-2e5c-4b72-9af0-84adc824c086">
+                    <propertyInstance
+                      Id="238a5765-ca6e-49b2-a193-bafd66939463"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="16f209e6-dd23-4cce-b267-c4433c7e44d4">
+                    <propertyInstance
+                      Id="d932e903-b2e0-4d69-a209-4dbc5691e395"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="01730924-b2d1-48b8-b887-9dda7dd4bc95">
+                    <propertyInstance
+                      Id="f8a09996-18e3-47ca-a1c8-edff96cc0354"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="ae8e92ea-5f4f-4043-bc56-84caa7872fcd"
+                LastKnownName="string"
+                LastKnownLocation="TentaModel.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="fee31e33-6d06-4025-a8db-d75d001a2a7f"
+        name="IPlayer"
+        isAbstract="false"
+        isLeaf="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a5344afe-fbbe-4b07-91c4-4f965e305de7"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7992631e-e32a-4e04-bce7-99ec845da83d">
+                <propertyInstance
+                  Id="f952197b-bfd6-48b4-9417-e28f5374eac3"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5cea1705-0c60-4800-9e3f-86b6b6161afd">
+                <propertyInstance
+                  Id="c6c0c32b-780f-4079-a6a5-6c462a016f10"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="faa3f5ca-6ebb-43b1-ac4c-01b8cbe1945f">
+                <propertyInstance
+                  Id="5a844d15-f8e6-40e3-940e-db400be271bc"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c7092231-4103-472d-bca5-ae8b35c8d716">
+                <propertyInstance
+                  Id="147a59b4-858a-4e21-b115-1a96a2cfdeff"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperations>
+          <operation
+            Id="e138caf8-8393-4601-87f7-4e021dc9fad1"
+            name="PlayMovie"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5e1ef17d-01bc-481c-bb72-a805414c33f2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3e66ac7e-6bfe-439e-b82f-f24016abeff8">
+                    <propertyInstance
+                      Id="9671bca3-5734-458a-8368-7b4dae057a09"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8b232cea-a0b1-4f95-aeb2-6fb3f66dd296">
+                    <propertyInstance
+                      Id="bdfb9624-b02b-47f9-b749-b78f60d82049"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b9d2d850-66d0-47e6-b8e7-38fb72625a55">
+                    <propertyInstance
+                      Id="3370304c-59e7-42f3-9d51-65bf78cc12a5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2559074e-e316-43de-a91e-81f8c33dde87">
+                    <propertyInstance
+                      Id="afd2d3b8-9f01-4e44-8b2a-2bb4096f0071"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="78667c48-faf3-4272-b8d0-ed84917e9abb">
+                    <propertyInstance
+                      Id="9a3b5f38-521d-452f-b82f-1227387d330b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e599f315-ac81-4737-b5ae-a757fff26ca0">
+                    <propertyInstance
+                      Id="ff88240a-fb05-4d5a-9ecd-d2ad3bdd0bef"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f0c5efac-0780-4b32-9bf3-de20a367b1f3"
+                  name="movieName"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="23cb85e3-78da-4384-8abd-59350552498b"
+        name="SFPlayer"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d4747c19-cd60-4467-a50e-731cfdb77fb3"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="26cbb494-d9c5-4fb3-bbed-08c5bf6fdcd0">
+                <propertyInstance
+                  Id="68859d6b-6690-456a-a667-e497f44bdec3"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="85b97e98-ae83-495b-9cb7-4b86e4ffc517">
+                <propertyInstance
+                  Id="42b4a45b-8f75-47b0-957b-22df0aafb846"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="81c7d07f-975e-4dcc-8e20-bb6694d9a652">
+                <propertyInstance
+                  Id="9f5b7bda-fe9a-4ea6-acbd-956819edc215"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9b853ecd-504b-431e-ad24-674a1f8aab55">
+                <propertyInstance
+                  Id="869b38a0-61a4-43fe-82d6-daf26b88fc6c"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7c8651ba-e84c-41dd-bb26-6b07cb0f1b91">
+                <propertyInstance
+                  Id="374ac88b-73ef-43f5-ba10-1c3a5428f05f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="9a8dd4e8-b325-4a95-8e91-03740678b3ac">
+            <interfaceMoniker
+              Id="fee31e33-6d06-4025-a8db-d75d001a2a7f"
+              LastKnownName="IPlayer"
+              LastKnownLocation="TentaModel.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="b0c38c23-e8c7-4b46-a608-0a0528a453c1"
+            name="PlayMovie"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ecb282dc-a208-414d-a4eb-6554491436ad"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc75b51e-2fb4-48bf-a6d1-0e72a8eea0af">
+                    <propertyInstance
+                      Id="27246fcd-41f4-462b-92f7-7f6dc427c911"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4aedf3b6-e768-4eac-8625-9920344c81fb">
+                    <propertyInstance
+                      Id="d3fbeea7-df2c-49ec-8cd6-67aeffbd5a92"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d1396a8a-a06c-4787-bd09-f48d9117b259">
+                    <propertyInstance
+                      Id="75737806-2a54-4df1-a0ba-3a0d0a89b7a3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="21df2343-fa31-464c-b95f-a40a89344f87">
+                    <propertyInstance
+                      Id="483bed11-7aa7-4bac-834f-80d34eb7ba43"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c4c764b7-e607-4180-b8b5-d71477c3db69">
+                    <propertyInstance
+                      Id="dd3e221f-61c1-4a23-8ebd-53a187873c4f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="abb82d89-b6c2-40ce-941f-13ab0e5fb65c">
+                    <propertyInstance
+                      Id="a3ee1ef4-e219-46a8-abe0-995360238ab7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5272d7e8-e184-4f5d-b3a6-a12886bb2f7c"
+                  name="movieName"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="22c2d0da-c9a4-4940-98e2-77b795b2570a"
+        name="NetflixPlayer"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="83e5fe4e-a854-4ae6-b508-cb2323191e48"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a905dbab-6bba-4d4e-a8a1-5c5060f6d460">
+                <propertyInstance
+                  Id="e5c2d6a1-a3e7-42fd-ae9f-0c5da23e558e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d49db310-4d7e-4d8d-81f3-e18556b87b7b">
+                <propertyInstance
+                  Id="8856aa88-0c5c-4ced-b186-b55d45cded32"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="61809d97-294e-4886-ba79-cde2d1dcfdfe">
+                <propertyInstance
+                  Id="b52a27d0-9d0f-4b03-99a7-8997c6858da7"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1a3736b5-271e-42f0-b90e-b8fb90221559">
+                <propertyInstance
+                  Id="c0f7111b-2488-4d1d-98ad-68c8a1c32b50"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dfa8f5c1-258b-4f6d-8bf6-169de036212f">
+                <propertyInstance
+                  Id="2d171978-f28c-466f-b286-0fecfdf2c717"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="bbcb86f7-fa91-4857-94dc-d243bf78741c">
+            <interfaceMoniker
+              Id="fee31e33-6d06-4025-a8db-d75d001a2a7f"
+              LastKnownName="IPlayer"
+              LastKnownLocation="TentaModel.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="055e5d32-07e3-496a-9483-15116c277979"
+            name="PlayMovie"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1165442a-e5b2-4282-86e5-c982770b56d1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a228ea8a-6df3-4c3f-81c3-d3ea0966e87d">
+                    <propertyInstance
+                      Id="d2a24c62-173b-4f14-b88d-1779f3a00f27"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="accf94fb-afb3-4a1b-b17c-afc631d6f230">
+                    <propertyInstance
+                      Id="70490b76-26ab-418c-95c7-dac920282b6e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f46de6e3-8da3-450d-b730-00a6e132d64a">
+                    <propertyInstance
+                      Id="30c75d83-3040-4306-a644-3309220d29b8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8f73c6a9-6c7e-481c-b95b-a397bf39df0b">
+                    <propertyInstance
+                      Id="a72e2dcb-4072-466d-8a31-0585e7a785e3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6d06c80a-e809-4588-bd5f-fb9e21c70a85">
+                    <propertyInstance
+                      Id="2e7fae39-a305-4483-b2a3-1325eb705314"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec259a7d-8400-4075-b51b-9670fff2682d">
+                    <propertyInstance
+                      Id="7c0c8b4d-d347-4e33-b151-4ca89b4a575a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1e5568ec-e8b4-42d9-ae7f-f373be8330db"
+                  name="movieName"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="ae8e92ea-5f4f-4043-bc56-84caa7872fcd"
+        name="string" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="b41e8bf4-e133-4f2b-98c2-285953a880a6"
+        name="dateTime" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="14258f78-fdd8-4a97-a7e5-27e46cdf8d4f"
+        name="int" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ac88930d-8116-4fda-9ab1-4c87114afba0"
+        name="PlayerFactory"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="072c78ca-6576-40a6-9cdf-bd26ba31a11c"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="37cb7279-a726-40be-acbd-8293238bacb5">
+                <propertyInstance
+                  Id="c6752a35-bef6-458e-b570-6b0f59e4207e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5ee7c60e-8ff4-430a-8931-faf90e57f2b6">
+                <propertyInstance
+                  Id="25377577-2301-4977-9b03-37e11176ae91"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4110263b-94c3-4d1b-a12f-6655a4cb0455">
+                <propertyInstance
+                  Id="62da7780-2f5c-48f1-bc1e-a3e8d8440cff"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d8dd9394-432f-4ff5-b807-78faf48a9c84">
+                <propertyInstance
+                  Id="c8920871-ec2b-4449-8eca-bee84063d3af"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="70ef3861-7ca5-4311-8456-01adb48441b7">
+                <propertyInstance
+                  Id="2dd00378-0ac0-4c37-8352-35576739b231"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="e432bb0a-c410-47d5-9428-5ccce3b361d9"
+            name="CreatePlayer"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="16deca91-9ff2-42cc-b95e-b2ae4291fa94"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="457cc314-6d8b-4764-8353-4b01d631bc0f">
+                    <propertyInstance
+                      Id="8ee54b7b-057b-450f-ab02-6b4ba869bd10"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="84aaa35e-df97-4efe-9d40-513f68301c3e">
+                    <propertyInstance
+                      Id="0f0ae39e-5ffc-4133-a4fb-83bb84d1b24e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a6d2405e-0455-4cf0-8ca5-e9f4ac9491ff">
+                    <propertyInstance
+                      Id="c8171bec-51b1-495c-b085-0970a6538c61"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f961998c-3f79-41f0-bbba-8a49f0950e16">
+                    <propertyInstance
+                      Id="a5786858-31e9-48b2-8187-845aae24d788"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0904a7cb-b796-4d56-9225-b8231cfbc423">
+                    <propertyInstance
+                      Id="2b56320b-4bcf-47f3-99b2-32dd30fca41a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c3f937cc-2c2b-47cc-b8a3-e925723ff699">
+                    <propertyInstance
+                      Id="8385dd5a-13cb-492a-ae03-8901de8b5554"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="87f30648-751b-4b12-8952-6c73eaa05bf2"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <interfaceMoniker
+                      Id="fee31e33-6d06-4025-a8db-d75d001a2a7f"
+                      LastKnownName="IPlayer"
+                      LastKnownLocation="TentaModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8265718c-1df7-46e3-8e80-c7a066e45c48"
+                  name="company"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="ae8e92ea-5f4f-4043-bc56-84caa7872fcd"
+                      LastKnownName="string"
+                      LastKnownLocation="TentaModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ccd42d10-3589-483a-bb50-adfc78e9758d"
+        name="MovieFacade"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="5d516479-d518-414b-81f3-6840c3f5628f"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ef6a17d4-95c6-4680-913d-5ecc8c897cb0">
+                <propertyInstance
+                  Id="3675528d-e679-43e8-a8dd-6dab678b2aed"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c668bb5c-7474-4052-8061-8b644f909f7e">
+                <propertyInstance
+                  Id="6fa82296-b279-4427-a743-f45f10237db5"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ec33c252-fef0-4cba-a005-b332c36be4e8">
+                <propertyInstance
+                  Id="00b6b0c2-844b-4b31-9e04-4cdfd47994e3"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="05e11daf-19c4-4c27-bb1d-db838bbebd7f">
+                <propertyInstance
+                  Id="5f79c640-465e-41bc-8574-782159db98fa"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b2192268-fa09-47b7-ab48-5feaa88a9022">
+                <propertyInstance
+                  Id="0f83799e-7f84-48dc-91af-3d523aa88c28"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="4e06af49-f111-452c-b60f-e2b689c8249a"
+            name="HasBeenPlayed"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="26e9b36f-9b45-466e-ae9e-d3eb62c3623c"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4a125b04-fa61-44cb-9c2a-12e745943fca">
+                    <propertyInstance
+                      Id="9844feef-8521-4c19-bfef-18ef80ce51db"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4cdc16b7-6368-42b4-8930-950b0b44d0f2">
+                    <propertyInstance
+                      Id="04b25e7d-e3be-447a-819a-04fe087f4001"
+                      name="Get"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c9110990-9a1c-436b-ae0c-00bb498c501f">
+                    <propertyInstance
+                      Id="a6e3c940-646a-4acc-b9d0-dc664d1a3fd8"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1c6bc414-1d42-4faf-81af-591fbe17e2f2">
+                    <propertyInstance
+                      Id="27722296-16c9-4487-847d-33b18458a7c0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d76c39e8-4f9f-4c38-b1fb-888cc4fa735b">
+                    <propertyInstance
+                      Id="8a0870dd-1048-4844-9e20-da4bd9be3e96"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cd817d91-8475-4f24-ac97-1bbae2095316">
+                    <propertyInstance
+                      Id="91b7c908-c1ed-403f-975b-6c3588a882e4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd2e8229-45a3-4082-935e-7812f9815829">
+                    <propertyInstance
+                      Id="ba1f2230-1a40-48c3-96ab-25607b7159a9"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="96edcf42-8666-4375-b105-f26a365d90a8"
+                LastKnownName="bool"
+                LastKnownLocation="TentaModel.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="95417e61-2115-4e7a-afdb-7caa63953340"
+            name="Play"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5fc7b709-fa3f-4165-b19d-9878ed01d808"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1df2be9f-1f50-47ca-949f-bb08293016ab">
+                    <propertyInstance
+                      Id="660b20ca-6c3e-4a80-ab41-db8c5f371c0f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="90993229-5af9-4271-903b-5f01bcd0c8b7">
+                    <propertyInstance
+                      Id="a4be2f02-4b46-4fc3-96a0-8fc37be89625"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="75eb5358-6b84-4a84-9008-f434ec970484">
+                    <propertyInstance
+                      Id="cd165adb-b86b-4ea1-a2a0-39a094f43a77"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b2620091-5208-4b8d-b71f-1ac9a9bf1cd1">
+                    <propertyInstance
+                      Id="02bb4c20-72d2-4dab-a04c-af8f3c9f3265"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="153baef1-37c9-40ec-918f-bec9b6656c2d">
+                    <propertyInstance
+                      Id="6dcde26e-a024-47c4-b3aa-bc7b3b10d9ca"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="858e4d5e-3e4f-4913-9370-d1842b3707a9">
+                    <propertyInstance
+                      Id="34ce8cde-98bb-4721-85c7-696e70f59e1c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="37130e9e-5303-4701-a9f6-cd7e553bcd1f"
+                  name="movieName"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="ae8e92ea-5f4f-4043-bc56-84caa7872fcd"
+                      LastKnownName="string"
+                      LastKnownLocation="TentaModel.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4743d9e0-84e9-4874-bafa-e0b9bd16f699"
+        name="Actor"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="eb48acf5-192a-4981-9398-e6504dc49d72"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="280eb920-8b4f-49c1-91ca-cc9ed443fe89">
+                <propertyInstance
+                  Id="cac98c76-d8b5-4035-b165-5acab5320d01"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="78f2b107-23d7-4c8b-9eac-bac557b8aa56">
+                <propertyInstance
+                  Id="b02dbbbd-46c7-4d7f-ac04-df43ed7f4d7b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ddefa3db-5f3d-4131-a89e-719afc56a162">
+                <propertyInstance
+                  Id="e0803b6a-d75d-4d1d-bd99-d35d938389dd"
+                  name="IsStatic"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2aa3e68a-1767-4c6b-87cc-9b83af0a3f27">
+                <propertyInstance
+                  Id="4fae75db-490f-49dd-aa05-21b86c4c6bbf"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="beba3cbb-8069-4645-8404-d932b3b0f1ab">
+                <propertyInstance
+                  Id="5c0c9518-bf8e-4a60-8e17-c299ccfa57f0"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="f8103aba-3ab9-4186-9391-5f5c99cff80d"
+            name="Name"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e297dfe3-89f8-4540-84cd-4cfefda37935"
+                name="property"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4c46188-51a3-41ce-ba59-039b5b287e60">
+                    <propertyInstance
+                      Id="c9935291-51c7-4658-a3cf-ce4da4edac0f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2b038ed9-4625-4cd2-a480-2cb492ff9aad">
+                    <propertyInstance
+                      Id="90ca5f6a-c1c9-4985-ae38-8c04b5573085"
+                      name="Get"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="41c6a5b5-6dfa-4684-b889-7162208be8b9">
+                    <propertyInstance
+                      Id="f5f858f9-b783-403d-a1be-85481dc12448"
+                      name="HasBody"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="35807678-2a71-43c1-a6cc-5cdb6ed5f769">
+                    <propertyInstance
+                      Id="0db1d1bc-eb27-4cdb-aadf-2be9e5e2aa2a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4648dc75-45dd-40fe-8c79-6d54873f7207">
+                    <propertyInstance
+                      Id="54c1d2af-b9c0-464e-8461-558c9f865112"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="916383fa-09e5-4a9c-a890-04d737f8b2d9">
+                    <propertyInstance
+                      Id="8545d67d-6a62-4b2d-a4b4-51509e938a96"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea24e613-ca64-4e58-bcde-5eb45271d914">
+                    <propertyInstance
+                      Id="914ed89e-1a76-4b04-9dc0-798014bce5bc"
+                      name="Set"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="ae8e92ea-5f4f-4043-bc56-84caa7872fcd"
+                LastKnownName="string"
+                LastKnownLocation="TentaModel.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="8de76f35-c43b-4da2-90fd-a6d276b24798"
+        name="company" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="96edcf42-8666-4375-b105-f26a365d90a8"
+        name="bool" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="2e0b68a9-b0d4-4767-b7ca-d9482fb9f48e"
+        name="TentaSequenceDiagram"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="52204a5b-5d25-4f2b-a036-5421df7d3d8e"
+            name="BehaviorExecutionSpecification1">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="63e07dbf-2e43-4344-b4d5-0526b7679743"
+                LastKnownName="MovieFacade"
+                LastKnownLocation="TentaModel.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="02e4228b-8b3b-4311-8277-14bffcbd3970"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="TentaModel.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="057042f5-5789-44f3-aa2e-4ce8875061a5"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="TentaModel.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="a6d22e4a-1d75-4b2a-81f4-a6dad62561cc"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="TentaModel.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="91fd13cd-7436-422e-8503-bef4578d841e"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="TentaModel.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="8d18f27f-60ac-4906-ad2e-2e32a22aa50e"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="TentaModel.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="37a28c59-7606-4533-868b-c9c51b88a1ff"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="TentaModel.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="4f5a7a2f-6c3b-4aff-b853-c70eb7882b98"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="TentaModel.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="222020f9-274a-4b7c-84d2-dd7cd21dcd8c"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="TentaModel.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="057042f5-5789-44f3-aa2e-4ce8875061a5"
+            name="ExecutionOccurrenceSpecification1">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="c4c3c32d-8a5d-4e84-877a-f10f3fa2dddc"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TentaModel.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="63e07dbf-2e43-4344-b4d5-0526b7679743"
+                LastKnownName="MovieFacade"
+                LastKnownLocation="TentaModel.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f2cb3118-5c8e-45f2-b105-dd55ca043a4e"
+            name="MessageOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="97a41500-ab10-4e8a-be6c-8a810c898986"
+                LastKnownName="Consumer"
+                LastKnownLocation="TentaModel.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="a6d22e4a-1d75-4b2a-81f4-a6dad62561cc"
+            name="MessageOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="63e07dbf-2e43-4344-b4d5-0526b7679743"
+                LastKnownName="MovieFacade"
+                LastKnownLocation="TentaModel.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="10d36896-febe-422f-a03f-9331b54b73bb"
+            name="BehaviorExecutionSpecification2">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="d3826e06-3eb2-4062-849b-0bdc75afcfe3"
+                LastKnownName="PlayerFactory"
+                LastKnownLocation="TentaModel.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="dbcb85c1-0384-4c1d-8ad3-2e9601ef8c70"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="TentaModel.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="a0e0d08a-07d2-4808-bb3e-32fda589751d"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="TentaModel.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="bfaa1415-0ab1-4096-aaa4-f89054d30418"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="TentaModel.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="f568b2c9-0acf-43d9-8f8f-8092e7ba9ac1"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="TentaModel.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="a0e0d08a-07d2-4808-bb3e-32fda589751d"
+            name="ExecutionOccurrenceSpecification3">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="60875061-0272-417e-9f44-c1858ed7358f"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TentaModel.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="d3826e06-3eb2-4062-849b-0bdc75afcfe3"
+                LastKnownName="PlayerFactory"
+                LastKnownLocation="TentaModel.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="91fd13cd-7436-422e-8503-bef4578d841e"
+            name="MessageOccurrenceSpecification5">
+            <covered>
+              <lifelineMoniker
+                Id="63e07dbf-2e43-4344-b4d5-0526b7679743"
+                LastKnownName="MovieFacade"
+                LastKnownLocation="TentaModel.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="bfaa1415-0ab1-4096-aaa4-f89054d30418"
+            name="MessageOccurrenceSpecification6">
+            <covered>
+              <lifelineMoniker
+                Id="d3826e06-3eb2-4062-849b-0bdc75afcfe3"
+                LastKnownName="PlayerFactory"
+                LastKnownLocation="TentaModel.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f568b2c9-0acf-43d9-8f8f-8092e7ba9ac1"
+            name="MessageOccurrenceSpecification7">
+            <covered>
+              <lifelineMoniker
+                Id="d3826e06-3eb2-4062-849b-0bdc75afcfe3"
+                LastKnownName="PlayerFactory"
+                LastKnownLocation="TentaModel.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="8d18f27f-60ac-4906-ad2e-2e32a22aa50e"
+            name="MessageOccurrenceSpecification8">
+            <covered>
+              <lifelineMoniker
+                Id="63e07dbf-2e43-4344-b4d5-0526b7679743"
+                LastKnownName="MovieFacade"
+                LastKnownLocation="TentaModel.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="dbcb85c1-0384-4c1d-8ad3-2e9601ef8c70"
+            name="ExecutionOccurrenceSpecification4">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="227792f0-d7ab-44b8-adc6-892e524782d0"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TentaModel.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="d3826e06-3eb2-4062-849b-0bdc75afcfe3"
+                LastKnownName="PlayerFactory"
+                LastKnownLocation="TentaModel.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="0e145fc7-4a74-49ac-b763-8caee05ca5a9"
+            name="BehaviorExecutionSpecification4">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="358d671d-19db-4800-9bf1-5fc1a9e0771a"
+                LastKnownName="IPlayer"
+                LastKnownLocation="TentaModel.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="802d6c0d-432a-4929-8c33-f27457237b77"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="TentaModel.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="2257b9e3-acda-4dbf-addd-0b0be791c274"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="TentaModel.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="2b1fa3f2-4096-46aa-b3b4-365e8239bc7a"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="TentaModel.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="26edea46-2215-4e96-ab32-b9b0058fff65"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="TentaModel.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="2257b9e3-acda-4dbf-addd-0b0be791c274"
+            name="ExecutionOccurrenceSpecification7">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="2999c42d-f4ee-4f52-ba9c-299cc4fa41fb"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TentaModel.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="358d671d-19db-4800-9bf1-5fc1a9e0771a"
+                LastKnownName="IPlayer"
+                LastKnownLocation="TentaModel.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="37a28c59-7606-4533-868b-c9c51b88a1ff"
+            name="MessageOccurrenceSpecification13">
+            <covered>
+              <lifelineMoniker
+                Id="63e07dbf-2e43-4344-b4d5-0526b7679743"
+                LastKnownName="MovieFacade"
+                LastKnownLocation="TentaModel.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="2b1fa3f2-4096-46aa-b3b4-365e8239bc7a"
+            name="MessageOccurrenceSpecification14">
+            <covered>
+              <lifelineMoniker
+                Id="358d671d-19db-4800-9bf1-5fc1a9e0771a"
+                LastKnownName="IPlayer"
+                LastKnownLocation="TentaModel.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="26edea46-2215-4e96-ab32-b9b0058fff65"
+            name="MessageOccurrenceSpecification15">
+            <covered>
+              <lifelineMoniker
+                Id="358d671d-19db-4800-9bf1-5fc1a9e0771a"
+                LastKnownName="IPlayer"
+                LastKnownLocation="TentaModel.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="4f5a7a2f-6c3b-4aff-b853-c70eb7882b98"
+            name="MessageOccurrenceSpecification16">
+            <covered>
+              <lifelineMoniker
+                Id="63e07dbf-2e43-4344-b4d5-0526b7679743"
+                LastKnownName="MovieFacade"
+                LastKnownLocation="TentaModel.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="802d6c0d-432a-4929-8c33-f27457237b77"
+            name="ExecutionOccurrenceSpecification8">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="ed2cf36d-8e11-4897-a4aa-219571147237"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TentaModel.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="358d671d-19db-4800-9bf1-5fc1a9e0771a"
+                LastKnownName="IPlayer"
+                LastKnownLocation="TentaModel.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="222020f9-274a-4b7c-84d2-dd7cd21dcd8c"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="63e07dbf-2e43-4344-b4d5-0526b7679743"
+                LastKnownName="MovieFacade"
+                LastKnownLocation="TentaModel.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="bebbe9e8-bfd1-476f-a8a3-7ae63e282753"
+            name="MessageOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="97a41500-ab10-4e8a-be6c-8a810c898986"
+                LastKnownName="Consumer"
+                LastKnownLocation="TentaModel.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="02e4228b-8b3b-4311-8277-14bffcbd3970"
+            name="ExecutionOccurrenceSpecification2">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="9e2c9352-07ed-4048-a6d1-3a67ec456661"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="TentaModel.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="63e07dbf-2e43-4344-b4d5-0526b7679743"
+                LastKnownName="MovieFacade"
+                LastKnownLocation="TentaModel.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="97a41500-ab10-4e8a-be6c-8a810c898986"
+            name="Consumer"
+            isActor="true"
+            lifelineDisplayName="Consumer">
+            <represents>
+              <propertyMoniker
+                Id="a565f551-f0cf-41b3-a43e-4a54220a8102"
+                LastKnownLocation="TentaModel.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="f2cb3118-5c8e-45f2-b105-dd55ca043a4e"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="TentaModel.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="bebbe9e8-bfd1-476f-a8a3-7ae63e282753"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="TentaModel.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="63e07dbf-2e43-4344-b4d5-0526b7679743"
+            name="MovieFacade"
+            isActor="false"
+            lifelineDisplayName="MovieFacade">
+            <represents>
+              <propertyMoniker
+                Id="4ba7c11a-a8cd-4802-9bdb-94d7a36715d0"
+                LastKnownLocation="TentaModel.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="057042f5-5789-44f3-aa2e-4ce8875061a5"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="TentaModel.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="02e4228b-8b3b-4311-8277-14bffcbd3970"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="TentaModel.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="d3826e06-3eb2-4062-849b-0bdc75afcfe3"
+            name="PlayerFactory"
+            isActor="false"
+            lifelineDisplayName="PlayerFactory">
+            <represents>
+              <propertyMoniker
+                Id="0c4636bc-28ec-47f9-8792-f13124914550"
+                LastKnownLocation="TentaModel.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="a0e0d08a-07d2-4808-bb3e-32fda589751d"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="TentaModel.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="dbcb85c1-0384-4c1d-8ad3-2e9601ef8c70"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="TentaModel.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="358d671d-19db-4800-9bf1-5fc1a9e0771a"
+            name="IPlayer"
+            isActor="false"
+            lifelineDisplayName="IPlayer">
+            <represents>
+              <propertyMoniker
+                Id="b8b78f02-0899-47bb-ade1-7bbf629680ea"
+                LastKnownLocation="TentaModel.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="2257b9e3-acda-4dbf-addd-0b0be791c274"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="TentaModel.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="802d6c0d-432a-4929-8c33-f27457237b77"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="TentaModel.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="fa78d3f2-251e-4724-ab86-04b9a63ea827"
+            name="Play(movieName)"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f2cb3118-5c8e-45f2-b105-dd55ca043a4e"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="TentaModel.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="a6d22e4a-1d75-4b2a-81f4-a6dad62561cc"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="TentaModel.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="2121edc1-ed50-4553-b35c-5f17ef6770f7"
+            name="CreatePlayer(&quot;Netfllix&quot;)"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="91fd13cd-7436-422e-8503-bef4578d841e"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="TentaModel.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="bfaa1415-0ab1-4096-aaa4-f89054d30418"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="TentaModel.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="f10e51a5-6c4b-4e83-a85f-555afe569a1f"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f568b2c9-0acf-43d9-8f8f-8092e7ba9ac1"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="TentaModel.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="8d18f27f-60ac-4906-ad2e-2e32a22aa50e"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="TentaModel.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="41f2bbad-47be-47be-b292-c6cc329de1d3"
+            name="PlayMovie(movieName)"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="37a28c59-7606-4533-868b-c9c51b88a1ff"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="TentaModel.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="2b1fa3f2-4096-46aa-b3b4-365e8239bc7a"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="TentaModel.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="2c116a30-437f-49fd-895c-021da60ae2e4"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="26edea46-2215-4e96-ab32-b9b0058fff65"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="TentaModel.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="4f5a7a2f-6c3b-4aff-b853-c70eb7882b98"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="TentaModel.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="28c8a5a2-3b76-480a-9b6d-5759fdc72de1"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="222020f9-274a-4b7c-84d2-dd7cd21dcd8c"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="TentaModel.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="bebbe9e8-bfd1-476f-a8a3-7ae63e282753"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="TentaModel.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+        <ownedAttributesInternal>
+          <property
+            Id="a565f551-f0cf-41b3-a43e-4a54220a8102"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <actorMoniker
+                Id="b6da6895-0c55-4ce1-ae2a-2250d991d2e0"
+                LastKnownName="Consumer"
+                LastKnownLocation="TentaModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="4ba7c11a-a8cd-4802-9bdb-94d7a36715d0"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="ccd42d10-3589-483a-bb50-adfc78e9758d"
+                LastKnownName="MovieFacade"
+                LastKnownLocation="TentaModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="0c4636bc-28ec-47f9-8792-f13124914550"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="ac88930d-8116-4fda-9ab1-4c87114afba0"
+                LastKnownName="PlayerFactory"
+                LastKnownLocation="TentaModel.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b8b78f02-0899-47bb-ade1-7bbf629680ea"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="fee31e33-6d06-4025-a8db-d75d001a2a7f"
+                LastKnownName="IPlayer"
+                LastKnownLocation="TentaModel.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="c4c3c32d-8a5d-4e84-877a-f10f3fa2dddc"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="9e2c9352-07ed-4048-a6d1-3a67ec456661"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="60875061-0272-417e-9f44-c1858ed7358f"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="227792f0-d7ab-44b8-adc6-892e524782d0"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="2999c42d-f4ee-4f52-ba9c-299cc4fa41fb"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="ed2cf36d-8e11-4897-a4aa-219571147237"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="99eeda3c-6959-4637-8e4c-cb5c14ca8e5a"
+        name="DateTime" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

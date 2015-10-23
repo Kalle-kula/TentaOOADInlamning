@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="438aeb8c-98dd-4c63-bd76-efd0d73f1d92" name="TentaUseCase" linkedPackageId="868c8cd3-2cc2-4e37-aef2-2c1dc76cca12" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="efbf2739-8a36-4401-b24f-015e9bf078f0" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="d4e02147-2c6e-4302-9115-72d0329a75e6" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="fe692a82-eb90-4260-9753-be2b3aebe951">
+          <propertyInstance Id="8367476c-ae33-4234-aeb2-80d4725606ee" name="BaseName">
+            <elementDefinition Id="b7883073-37db-4f97-a2d4-e959e7c22565" />
+          </propertyInstance>
+          <elementDefinition Id="b903142a-bdd5-4369-92f7-9cdb4c4c9890" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="cb1d8a5b-2cbf-44ec-9a69-c89d3e6955b6">
+          <propertyInstance Id="1a74d3d6-3918-4f81-9591-8865ccbd4884" name="ClrAttributes">
+            <elementDefinition Id="ecdde0f0-e81f-4151-b354-86fadbd777fb" />
+          </propertyInstance>
+          <elementDefinition Id="95f140b4-5033-46af-99a5-2fd3f9738e82" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="ca4a873f-2896-4950-aca6-71fa21c64d1f">
+          <propertyInstance Id="be287a72-5bf7-4aba-a53b-cba753f0fa96" name="Usings">
+            <elementDefinition Id="aff14491-09df-45d9-9e29-fd98206652e7" />
+          </propertyInstance>
+          <elementDefinition Id="100f6839-f3a0-4e98-8751-cb25915f6713" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="239adbf2-d552-47a1-8b70-9c39017bab8f" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="18e5d3f4-8be0-4197-88c0-79a4d7050e8a" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="8abc1d54-9bcc-4f8d-966b-2c0a0c173b5a">
+          <propertyInstance Id="c88eb0a2-174c-49f2-8aa1-25ef6d36545d" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="7ed866bb-3906-4377-a6ac-bdf9f22760ec" />
+          </propertyInstance>
+          <elementDefinition Id="4381c29c-7210-4613-aab7-ec4cb7ce5c13" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="521ed85e-f6ea-4f3f-9cd6-f626053f1894">
+          <propertyInstance Id="cdf2839d-cd5e-4535-b5e4-accf5ddf5063" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="90ff2743-da2f-4315-965d-d5e0e7180a28" />
+          </propertyInstance>
+          <elementDefinition Id="304308fc-fe0b-42f1-a8d7-a19d872e29ac" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="2a2d2459-dd0b-419d-afed-12d07683fec5">
+          <propertyInstance Id="9bcdf89a-2c1c-4def-a85b-98a521b841d2" name="ProjectPath" value="ClassTemplate=..\TentaModelLib\TentaModelLib.csproj|EnumTemplate=..\TentaModelLib\TentaModelLib.csproj|InterfaceTemplate=..\TentaModelLib\TentaModelLib.csproj|StructTemplate=..\TentaModelLib\TentaModelLib.csproj">
+            <elementDefinition Id="ce029300-b8cd-46a1-97b4-0756c9fa4165" />
+          </propertyInstance>
+          <elementDefinition Id="6f216812-dbe3-44ea-82c9-fb91a5550505" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="44752b14-adaf-4e10-83f2-219289035ce3">
+          <propertyInstance Id="9a407b91-bf4f-4563-a8ea-63d49f2ec375" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="920f1b03-9170-4ce8-97a2-c3e36c0d53ee" />
+          </propertyInstance>
+          <elementDefinition Id="a01d5c35-e4f5-48e9-b244-48db6df5192d" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="425a1f1e-bed2-41a4-a562-720f4a7c871d">
+          <propertyInstance Id="b1288996-a462-43a2-afd7-08eea48fc7a0" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="d968a4b1-5883-4ed3-91d8-21d30c82d839" />
+          </propertyInstance>
+          <elementDefinition Id="b16c6771-bcaf-4d1c-9126-966d118a48f9" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="6892480e-7f26-47df-b7cf-22df3c3f8a8c">
+          <propertyInstance Id="3058c92f-0766-496e-b57a-66048d5e90e1" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="87370b35-20ea-4f52-99f7-8e412cee1ce1" />
+          </propertyInstance>
+          <elementDefinition Id="d6357620-081c-49d7-bc9a-c06e6e53730c" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="78f63544-052b-4d76-9080-47dc2777de09">
+          <propertyInstance Id="e894fb29-b7ca-4a76-b17f-a29b68a343ae" name="Parameters">
+            <elementDefinition Id="d11d2f1f-fddf-46a5-86f3-a31d15c1bf37" />
+          </propertyInstance>
+          <elementDefinition Id="ed252839-0bbf-4cf1-87eb-a0edce339a85" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="b8eb5412-83b6-4095-8888-e5bd25839464">
+      <profileInstance Id="819a27c0-a62d-4890-abc5-517d969cc708" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="dfd7ca18-7878-4755-ba4d-3246aacdbdfa">
+      <profileInstance Id="aef83d30-59cb-4c3f-9230-43606598e68f" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="b2d9bbb1-8b7f-4a2c-9db4-f60e730f103d">
+      <profileInstance Id="972148c8-2c9e-424c-8004-17649d2b9e99" name="CSharpProfile">
+        <elementDefinition Id="e65175bb-bc9c-4acd-ab90-ff7a730ca710" />
+      </profileInstance>
+      <elementDefinition Id="a5f928cc-d2c0-4c49-b91b-2f58956621aa" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="e219f055-2a1b-4aab-ae35-4f5111999882">
+      <profileInstance Id="f1a84f27-5373-4c55-b8a1-5e348defc0c3" name="TextTemplateBindings">
+        <elementDefinition Id="416d2bb4-af12-4770-bab5-647b7bab01ba" />
+      </profileInstance>
+      <elementDefinition Id="ac2bcaa8-c035-4034-82e3-e06c3040b5ba" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="1cbe463d-b0be-4d25-bc8d-4b64a556149b" name="MovieSystem" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="dfbaba55-469b-4592-8e75-5d4bde05cd5c" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="c11d056b-674a-4db0-b397-d05614e42530" name="Consumer" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b6da6895-0c55-4ce1-ae2a-2250d991d2e0" />
+        <targetEnds>
+          <association Id="63315056-347c-4ed5-a3ff-83c942e074cf" isDerived="false" sourceEndRoleName="MovieWatcher" targetEndRoleName="Watch Movie" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="48485ef7-4c0a-47c2-b6b8-9b872e4062ea" LastKnownName="View Movie" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b6eb1e11-c49d-4cc3-82cc-50aed63bc52e" name="MovieWatcher" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2940e6ee-dbd3-4493-b334-a013a07a1cb5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="edbb6168-0fac-430b-bdbd-c2576243320b" name="Watch Movie" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="2d6b9a8d-65da-4168-92b2-2a74b12b8528" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="49615a83-6571-4115-8912-45cee1868e74" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="4477e726-a438-4efb-ace0-eb0dbe4e349e" name="Producer" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e4c62158-8a92-4e89-8c6b-86641d6bfc88" />
+        <targetEnds>
+          <association Id="f022909d-2574-461b-ac4b-ccd4ca31cc33" isDerived="false" sourceEndRoleName="Producer" targetEndRoleName="Upload movie" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="84dc76e9-d811-475f-bfdd-7e081e54c9a6" LastKnownName="Upload movie" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="386401c9-e562-4499-9732-a1df3bcf4f19" name="Producer" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e21f6ea6-97f1-4835-8ec6-6fb87dd08c2d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d402f9d9-0eb3-43e7-b8ec-c0d5a351f0c9" name="Upload movie" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7cbe60bd-b446-489c-9d1b-caa8ed9c3b99" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="62318aab-5bb4-40b2-8b58-5e33a5196717" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="48485ef7-4c0a-47c2-b6b8-9b872e4062ea" name="View Movie" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="28a24770-a865-4ab1-93c3-2aa988cb7ece" />
+        <subjects>
+          <subsystemMoniker Id="1cbe463d-b0be-4d25-bc8d-4b64a556149b" LastKnownName="MovieSystem" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="84dc76e9-d811-475f-bfdd-7e081e54c9a6" name="Upload movie" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="cf92abdf-c956-4195-b01f-36d8d7279fb7" />
+        <subjects>
+          <subsystemMoniker Id="1cbe463d-b0be-4d25-bc8d-4b64a556149b" LastKnownName="MovieSystem" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="868c8cd3-2cc2-4e37-aef2-2c1dc76cca12" name="TentaModel">
+    <elementDefinition Id="d216a83a-91d0-4678-ab57-6cb69839807a" />
+  </package>
+</useCaseModelRoot>
