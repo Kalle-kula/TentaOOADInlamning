@@ -17,8 +17,9 @@ public class MovieFacade
 		set;
 	}
 
-	public virtual void Play(string movieName)
+	public virtual void Play(string company, string movieName)
 	{
+        //ska helst skapas i klienten (unit testet)
         IPlayer player = PlayerFactory.CreatePlayer(company);
         player.PlayMovie(movieName);
         this.HasBeenPlayed = true;

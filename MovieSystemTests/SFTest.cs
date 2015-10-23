@@ -17,9 +17,8 @@ namespace MovieSystemTests
         public void Test_That_SF_Can_Be_Played()
         {
             MovieFacade facade = new MovieFacade();
-            facade.Play("SF");
-            Assert.IsTrue(facade.HasBeenPlayed);
-            //Assert.Fail();
+            facade.Play("SF", "hemma med vinden");
+            Assert.IsTrue(facade.HasBeenPlayed);            
         }
     }
 }

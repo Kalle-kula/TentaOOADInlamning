@@ -17,7 +17,7 @@ namespace MovieSystemTests
         public void Test_That_Netflix_Can_Be_Played()
         {
             MovieFacade facade = new MovieFacade();
-            facade.Play("Netflix");
+            facade.Play("Netflix", "borta med vinden");
             Assert.IsTrue(facade.HasBeenPlayed);
             //Assert.Fail();
         }
